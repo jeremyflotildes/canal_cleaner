@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/catkin_ws/devel
+
+Name: extended_object_detection
+Description: Description of extended_object_detection
+Version: 1.0.0
+Cflags: -I/home/ubuntu/catkin_ws/devel/include -I/usr/include
+Libs: -L${prefix}/lib /usr/lib/aarch64-linux-gnu/libtinyxml.so
+Requires: cv_bridge std_msgs sensor_msgs image_transport roscpp image_geometry cmake_modules message_runtime
